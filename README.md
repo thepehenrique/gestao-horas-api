@@ -1,3 +1,11 @@
+O projeto está em densenvolvimento, aceito idéias e contribuições.
+
+V1 - No momento a Api, é capaz de fazer o cadastro de um Usuário Aluno, lista os registros ativos, por id e deleta um usuário.
+Além disso, faz login no sistema com um domínio específico. 
+Em paralelo existe uma aplicação em Angular onde consome desse endpoint, onde ao fazer login ele é redirecionado para uma tela de registro.
+Breve irei postar a aplicação que consome dessa api.
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
