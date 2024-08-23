@@ -56,7 +56,7 @@ export class UsuarioService {
     }
   }
 
-  async findOneByLogin(login: string): Promise<Usuario | undefined> {
+  /* async findOneByLogin(login: string): Promise<Usuario | undefined> {
     return this.repository.findOne({ where: { login } });
-  }
+  } */
 }

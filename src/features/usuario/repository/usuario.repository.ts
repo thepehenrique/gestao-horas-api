@@ -20,7 +20,7 @@ export class UsuarioRepository extends Repository<Usuario> {
       .createQueryBuilder(Usuario, 'item')
       .select([
         'item.id',
-        'item.login',
+        'item.nome',
         'item.email',
         'item.senha',
         'item.tipoUsuario',
@@ -36,11 +36,13 @@ export class UsuarioRepository extends Repository<Usuario> {
       .createQueryBuilder(Usuario, 'item')
       .select([
         'item.id',
-        'item.login',
+        'item.nome',
         'item.email',
         'item.senha',
         'item.tipoUsuario',
         'item.status',
+        'item.nuMatricula',
+        'item.curso',
         'item.dtCadastro',
         'item.dtAtualizacao',
       ])

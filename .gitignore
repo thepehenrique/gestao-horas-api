@@ -59,3 +59,5 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 # ======
 src/metadata.ts
 
+# Arquivos
+src/auth/strategies/google.strategy.ts
